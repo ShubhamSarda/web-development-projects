@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: #28223F;
+    color: #B3B8CD;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+section {
+    width: 32rem;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+}
+
+.personal {
+    background-color: #231E39;
+    padding: 2.5rem 0 1.5rem 0;
+}
+
+.personal .pro {
+    background-color: #FEBB0B;
+    color: #231E39;
+    border-radius: 0.2rem;
+    font-size: 1.4rem;
+    padding: 0.1rem 0.7rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 2rem;
+}
+
+.personal img {
+    width: 12rem;
+    height: 12rem;
+    border: 0.2rem solid #03BFCB;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.personal .name {
+    margin-top: 1.3rem;
+    text-align: center;
+}
+
+.personal .country {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 0.2rem;
+}
+
+.personal .stack {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 2.5rem;
+}
+
+.personal .buttons {
+    text-align: center;
+    margin: 1rem;
+}
+
+.personal button {
+    border: 1px solid #03BFCB;
+    padding: 0.8rem 1.8rem;
+    border-radius: 0.3rem;
+    font-size: 1.3rem;
+}
+
+.personal button:hover {
+    cursor: pointer;
+}
+
+.personal button.primary {
+    background-color: #03BFCB;
+    color: #231E39;
+    margin-right: 0.5rem;
+}
+
+.personal button.secondary {
+    background-color: transparent;
+    color: #02899C;
+    margin-left: 0.5rem;
+}
+
+.social {
+    text-align: center;
+}
+
+.social i {
+    font-size: 1.8rem;
+    margin: 1rem 0.4rem;
+}
+
+.fa-linkedin:hover {
+    color: #0A66C2;
+}
+
+.fa-twitter:hover {
+    color: #60B8FF;
+}
+
+.fa-instagram:hover {
+    color: #AA38C7;
+}
+
+.fa-github:hover {
+    color: #000000;
+}
+
+.fa-youtube:hover {
+    color: #F62D3A;
+}
+
+.skills {
+    background-color: #1F1A36;
+    padding: 1.6rem 1rem;
+}
+
+.skills h2 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.skills ul li {
+    display: inline-block;
+    font-size: 1.2rem;
+    border: 0.2rem solid #272240;
+    border-radius: 0.2rem;
+    padding: 0.4rem;
+    margin: 0.2rem 0.1rem;
+}
