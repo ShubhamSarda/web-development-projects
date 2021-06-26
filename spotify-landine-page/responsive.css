@@ -1,0 +1,56 @@
+@media (min-width:1279px) {
+    :root {
+        --nav-height: 80px;
+        --logo-size: 80px;
+    }
+}
+
+@media (max-width:1279px) {
+    :root {
+        --nav-height: 80px;
+        --logo-size: 80px;
+    }
+    section.banner h1 {
+        font-size: 8rem;
+    }
+}
+
+@media (max-width:768px) {
+    :root {
+        --nav-height: 60px;
+        --logo-size: 70px;
+    }
+    header nav.desktop-menu {
+        display: none;
+    }
+    header nav.mobile-menu {
+        display: inline;
+    }
+    section.banner h1 {
+        font-size: 6rem;
+    }
+    footer .links {
+        margin: 2rem auto;
+    }
+    footer .extras span {
+        margin-top: 2rem;
+    }
+    footer .links {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    footer .company, footer .communities, footer .useful-links {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width:480px) {
+    :root {
+        --nav-height: 60px;
+        --logo-size: 70px;
+    }
+    section.banner h1 {
+        font-size: 5rem;
+    }
+}
