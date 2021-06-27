@@ -42,6 +42,10 @@ header .logo img {
     align-self: center;
 }
 
+header .logo img:hover {
+    cursor: pointer;
+}
+
 header nav {
     color: #ffffff;
     font-size: 1.5rem;
@@ -57,6 +61,11 @@ header nav ul {
 header nav ul li {
     padding: 0rem 2rem;
     align-self: center;
+}
+
+header nav ul li:hover {
+    color: #1ED760;
+    cursor: pointer;
 }
 
 header nav.mobile-menu {
@@ -126,6 +135,10 @@ footer .logo img {
     height: 60px;
 }
 
+footer .logo img:hover {
+    cursor: pointer;
+}
+
 footer .links {
     display: flex;
     flex-wrap: wrap;
@@ -138,10 +151,20 @@ footer .links ul li {
     padding: 1.3rem;
 }
 
+footer .links ul li:hover {
+    color: #1ED760;
+    cursor: pointer;
+}
+
 footer .links ul .heading {
     color: #919496;
     font-weight: 700;
     font-size: 1.3rem;
+}
+
+footer .links ul .heading:hover {
+    color: #919496;
+    cursor: text;
 }
 
 footer .social {
@@ -166,12 +189,22 @@ footer .social li {
     align-items: center;
 }
 
+footer .social li:hover {
+    color: #1ED760;
+    cursor: pointer;
+}
+
 footer .location {
     width: 100%;
     display: flex;
     justify-content: flex-end;
     font-size: 1.2rem;
     color: #919496;
+}
+
+footer .location:hover {
+    color: #1ED760;
+    cursor: pointer;
 }
 
 footer .location span {
@@ -195,6 +228,11 @@ footer .extras ul li {
     font-size: 1.2rem;
     color: #919496;
     padding: 1rem;
+}
+
+footer .extras ul li:hover {
+    color: #1ED760;
+    cursor: pointer;
 }
 
 footer .extras span {

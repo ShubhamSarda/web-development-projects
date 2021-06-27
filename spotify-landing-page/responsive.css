@@ -3,6 +3,9 @@
         --nav-height: 80px;
         --logo-size: 80px;
     }
+    section.banner h1 {
+        font-size: 12rem;
+    }
 }
 
 @media (max-width:1279px) {
@@ -11,7 +14,7 @@
         --logo-size: 80px;
     }
     section.banner h1 {
-        font-size: 8rem;
+        font-size: 10rem;
     }
 }
 
@@ -47,7 +50,7 @@
 
 @media (max-width:480px) {
     :root {
-        --nav-height: 60px;
+        --nav-height: 55px;
         --logo-size: 70px;
     }
     section.banner h1 {
