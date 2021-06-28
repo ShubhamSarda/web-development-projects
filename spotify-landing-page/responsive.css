@@ -13,6 +13,11 @@
         --nav-height: 80px;
         --logo-size: 80px;
     }
+    section.banner {
+        background-image: url('./media/bg/bursts-tablet.svg');
+        background-size: 153%;
+        background-position: right 40% center;
+    }
     section.banner h1 {
         font-size: 10rem;
     }
@@ -52,6 +57,11 @@
     :root {
         --nav-height: 55px;
         --logo-size: 70px;
+    }
+    section.banner {
+        background-image: url('./media/bg/bursts-mobile.svg');
+        background-size: 195%;
+        background-position: center top 30%;
     }
     section.banner h1 {
         font-size: 5rem;
