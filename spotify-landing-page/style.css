@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --green: #1ED760;
+    --gray: #919496;
+    --header-height: 80px;
+    --logo-height: 40px;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,8 +14,8 @@
 
 html {
     font-size: 10px;
-    font-family: 'Poppins', sans-serif;
     color: #ffffff;
+    font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -20,25 +27,24 @@ li {
 }
 
 header {
-    background: #000000;
-    height: var(--nav-height);
+    background-color: #000000;
+    height: var(--header-height);
 }
 
 header .container {
     display: flex;
     justify-content: space-between;
     width: 90%;
+    height: 100%;
     margin: auto;
 }
 
 header .logo {
-    height: var(--logo-size);
     display: flex;
 }
 
 header .logo img {
-    height: 100%;
-    padding: 2rem 0rem;
+    height: var(--logo-height);
     align-self: center;
 }
 
@@ -46,25 +52,21 @@ header .logo img:hover {
     cursor: pointer;
 }
 
-header nav {
-    color: #ffffff;
+header nav ul {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav ul li {
+    padding: 0 2rem;
     font-size: 1.5rem;
     font-weight: 600;
 }
 
-header nav ul {
-    display: flex;
-    justify-content: space-between;
-    height: var(--nav-height);
-}
-
-header nav ul li {
-    padding: 0rem 2rem;
-    align-self: center;
-}
-
 header nav ul li:hover {
-    color: #1ED760;
+    color: var(--green);
     cursor: pointer;
 }
 
@@ -79,38 +81,39 @@ header nav.mobile-menu img {
 }
 
 section.banner {
+    background-color: #2941AB;
+    height: 120vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #2941AB;
-    color: #1ED760;
-    height: 120vh;
-    background-image: url('./media/bg/bursts.svg');
+    color: var(--green);
+    background-image: url('./media/bg/main.svg');
     background-size: 175%;
     background-position: 46% 4%;
+    background-repeat: no-repeat;
 }
 
 section.banner h1 {
-    font-size: 10rem;
+    font-size: 12rem;
     line-height: 1.2;
 }
 
 section.banner p {
     font-size: 1.6rem;
-    margin: 2rem;
+    margin: 2rem 0;
     text-align: center;
 }
 
 section.banner button {
-    background-color: #1ED760;
+    background-color: var(--green);
     border: none;
     border-radius: 3rem;
     color: #2941AB;
-    font-weight: 600;
     font-size: 1.4rem;
+    font-weight: 600;
     padding: 1.8rem 2.7rem;
-    margin: 2rem;
+    margin: 2rem 0;
 }
 
 section.banner button:hover {
@@ -127,11 +130,9 @@ footer section.container {
     margin: auto;
     padding: 6rem 0 4rem 0;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
-
-footer .logo {}
 
 footer .logo img {
     width: 70%;
@@ -154,45 +155,45 @@ footer .links ul li {
 }
 
 footer .links ul li:hover {
-    color: #1ED760;
+    color: var(--green);
     cursor: pointer;
 }
 
 footer .links ul .heading {
-    color: #919496;
+    color: var(--gray);
     font-weight: 700;
     font-size: 1.3rem;
 }
 
 footer .links ul .heading:hover {
-    color: #919496;
+    color: var(--gray);
     cursor: text;
 }
 
 footer .social {
     flex-grow: 1;
+    margin: 20px 0;
 }
 
 footer .social ul {
-    margin: 20px 0;
     display: flex;
     justify-content: center;
 }
 
-footer .social li {
-    display: inline-flex;
-    height: 55px;
-    width: 55px;
+footer .social ul li {
+    font-size: 2.6rem;
     background-color: #222326;
     border-radius: 50%;
+    height: 5.5rem;
+    width: 5.5rem;
     margin: 0 0.6rem;
-    font-size: 2.6rem;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-footer .social li:hover {
-    color: #1ED760;
+footer .social ul li:hover {
+    color: var(--green);
     cursor: pointer;
 }
 
@@ -202,11 +203,11 @@ footer .location {
     display: flex;
     justify-content: flex-end;
     font-size: 1.2rem;
-    color: #919496;
+    color: var(--gray);
 }
 
 footer .location:hover {
-    color: #1ED760;
+    color: var(--green);
     cursor: pointer;
 }
 
@@ -233,18 +234,13 @@ footer .extras ul {
 
 footer .extras ul li {
     font-size: 1.1rem;
-    color: #919496;
-    padding: 1rem;
-}
-
-footer .extras ul li:hover {
-    color: #1ED760;
-    cursor: pointer;
+    color: var(--gray);
+    padding: 0.5rem 1rem;
 }
 
 footer .extras span {
     font-size: 1.2rem;
-    color: #919496;
-    align-self: center;
+    color: var(--gray);
     padding-right: 1rem;
+    align-self: center;
 }

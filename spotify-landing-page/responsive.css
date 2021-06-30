@@ -1,20 +1,8 @@
-@media (min-width:1279px) {
-    :root {
-        --nav-height: 80px;
-        --logo-size: 80px;
-    }
-    section.banner h1 {
-        font-size: 12rem;
-    }
-}
+@media (min-width:1279px) {}
 
 @media (max-width:1279px) {
-    :root {
-        --nav-height: 80px;
-        --logo-size: 80px;
-    }
     section.banner {
-        background-image: url('./media/bg/bursts-tablet.svg');
+        background-image: url('./media/bg/main-tablet.svg');
         background-size: 153%;
         background-position: right 40% center;
     }
@@ -25,8 +13,8 @@
 
 @media (max-width:768px) {
     :root {
-        --nav-height: 60px;
-        --logo-size: 70px;
+        --header-height: 60px;
+        --logo-height: 30px;
     }
     header nav.desktop-menu {
         display: none;
@@ -38,30 +26,27 @@
         font-size: 6rem;
     }
     footer .links {
-        margin: 2rem auto;
-    }
-    footer .extras span {
-        margin-top: 2rem;
-    }
-    footer .links {
         width: 100%;
-        display: flex;
+        margin: 2rem auto;
         flex-direction: column;
     }
     footer .company, footer .communities, footer .useful-links {
+        margin-top: 2rem;
+    }
+    footer .extras span {
         margin-top: 2rem;
     }
 }
 
 @media (max-width:480px) {
     :root {
-        --nav-height: 55px;
-        --logo-size: 70px;
+        --header-height: 50px;
+        --logo-height: 25px;
     }
     section.banner {
-        background-image: url('./media/bg/bursts-mobile.svg');
+        background-image: url('./media/bg/main-mobile.svg');
         background-size: 195%;
-        background-position: center top 30%;
+        background-position: center top 50%;
     }
     section.banner h1 {
         font-size: 5rem;
