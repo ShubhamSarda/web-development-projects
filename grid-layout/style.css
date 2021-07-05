@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    background-color: #FBE0C4;
+    padding: 1rem;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr; */
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+    /* grid-template: 270px 70px 70px 70px / 100px 100px 100px 100px; */
+    grid-template-areas: "item1 item1 item3 item3" "item2 item2 item3 item3" "item4 item5 item5 ." "item6 item6 item6 item6";
+    /* grid-column-gap: 1rem;
+    grid-row-gap: 1rem; */
+    grid-gap: 1rem 2rem;
+    /* justify-content: center;
+    align-content: center; */
+}
+
+.item {
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.item1 {
+    background-color: #8AB6D6;
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    /* grid-column: 1/span 3; */
+    grid-area: item1;
+    /* justify-self: center;
+    align-self: center; */
+}
+
+.item2 {
+    background-color: #2978B5;
+    grid-area: item2;
+    /* grid-row-start: 1;
+    grid-row-end: 4; */
+    /* grid-column-start: 4;
+    grid-column-end: 5; */
+    /* grid-row: 1/4;
+    grid-column: 4/5; */
+    /* grid-area: 1/4/4/5; */
+}
+
+.item3 {
+    background-color: #0061A8;
+    grid-area: item3;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template: 1fr 2fr / 1fr 1fr;
+    grid-template-areas: "content1 content1" "content2 content3";
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+/* ITEM3 Children Start */
+
+.content {
+    background-color: #393E46;
+    border-radius: 5px;
+}
+
+.content1 {
+    grid-area: content1;
+}
+
+.content2 {
+    grid-area: content2;
+}
+
+.content3 {
+    grid-area: content3;
+}
+
+/* ITEM3 Children End */
+
+.item4 {
+    background-color: #325288;
+    grid-area: item4;
+    /* grid-column-start: 2;
+    grid-column-end: 4; */
+}
+
+.item5 {
+    background-color: #284175;
+    grid-area: item5;
+}
+
+.item6 {
+    background-color: #393E46;
+    grid-area: item6;
+    /* grid-column: 2/span 2; */
+}
