@@ -14,3 +14,8 @@ Project 3: Spotify Clone (Flex Box Website)
 Repository Link -  https://github.com/ShubhamSarda/web-development-projects/tree/master/spotify-landing-page  
 Demo Link -  
 Code Pen -  https://codepen.io/shubham_ul/pen/eYWmypp  
+
+Project 4: Testimonial Section (CSS Grid)  
+Repository Link -  https://github.com/ShubhamSarda/web-development-projects/tree/master/testimonial-section  
+Demo Link -   
+Code Pen - https://codepen.io/shubham_ul/pen/OJmNEad  
