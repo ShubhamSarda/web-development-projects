@@ -1,0 +1,12 @@
+.b-t {
+    color: #000000;
+}
+
+.w-t {
+    color: #ffffff;
+}
+
+.h-c {
+    display: flex;
+    justify-content: center;
+}
