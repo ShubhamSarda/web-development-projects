@@ -17,16 +17,35 @@
 <body>
 
     <header>
-        <div class="navbar desktop container">
+        <div class="navbar container">
             <div class="logo">
                 <img src="./media/logo.png" alt="">
             </div>
-            <nav class="menu">
+            <nav class="d-menu desktop">
                 <ul>
-                    <li class="active">Home</li>
-                    <li>Packages</li>
+                    <a href="./index.html">
+                        <li class="active">Home</li>
+                    </a>
+                    <a href="#package">
+                        <li>Packages</li>
+                    </a>
                     <li>Contact</li>
                     <a href="" class="btn ml-2 animate__animated animate__tada">Download Now</a>
+                </ul>
+            </nav>
+            <nav class="m-menu mobile">
+                <div onclick="myFunction()">
+                    <button class="hamburger bi bi-list"></button>
+                </div>
+                <ul class="navbar-mobile" id="navbar-mobile">
+                    <a href="./index.html">
+                        <li class="active">Home</li>
+                    </a>
+                    <a href="#package">
+                        <li>Packages</li>
+                    </a>
+                    <li>Contact</li>
+                    <a href="" class="btn-sm">Download Now</a>
                 </ul>
             </nav>
         </div>
@@ -103,7 +122,7 @@
                 </div>
             </div>
         </section>
-        <section class="working container">
+        <section class="working container" id="package">
             <div class="content-a">
                 <p class="tagline">Have Fun Learn Fast</p>
                 <p class="mainline">See How It Works</p>
@@ -189,6 +208,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/main.js"></script>
 
 </body>
 

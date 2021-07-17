@@ -3,11 +3,20 @@
 @media (max-width:1279px) {}
 
 @media (max-width:992px) {
+    header {
+        position: sticky;
+        top: 0;
+        background-color: #ffffff;
+        z-index: 105;
+    }
     .float-bg {
         display: none;
     }
-    nav.menu {
+    nav.desktop {
         display: none;
+    }
+    nav.mobile {
+        display: block;
     }
     .intro-section {
         justify-content: center;
@@ -54,4 +63,8 @@
     }
 }
 
-@media (max-width:480px) {}
+@media (max-width:480px) {
+    .main-img {
+        width: 90%;
+    }
+}

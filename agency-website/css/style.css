@@ -11,22 +11,71 @@
     cursor: pointer;
 }
 
-.menu ul {
+.d-menu ul {
     list-style: none;
     font-size: 1.6rem;
     display: flex;
     align-items: center;
 }
 
-.menu ul li {
+.d-menu ul li {
     padding: 2rem 2rem;
     font-weight: 600;
     color: var(--theme-text-dull);
 }
 
-.menu ul li:hover {
+.d-menu ul li:hover {
     color: var(--theme-color);
     cursor: pointer;
+}
+
+nav.mobile {
+    display: none;
+    position: relative;
+}
+
+.hamburger {
+    font-size: 3rem;
+    cursor: pointer;
+    color: var(--theme-text);
+    border: none;
+    background-color: #ffffff;
+}
+
+#navbar-mobile {
+    display: none;
+}
+
+ul.navbar-mobile {
+    position: absolute;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    right: 9px;
+    background-color: var(--theme-section-bg);
+    padding: 3rem 3rem;
+    border-radius: 7px;
+    box-shadow: 5px 3px 2px rgb(140 152 164 / 15%);
+}
+
+.navbar-mobile a {
+    display: block;
+    margin-top: 1rem;
+}
+
+.m-menu ul li {
+    padding: 1rem 0rem 1rem 1rem;
+    font-weight: 500;
+    color: var(--theme-text-dull);
+}
+
+.m-menu ul li:hover {
+    cursor: pointer;
+    color: var(--theme-color);
+    background-color: #b8dfff;
+    border-radius: 5px;
+    padding-left: 1rem;
 }
 
 .intro-section {
@@ -76,7 +125,7 @@
 .highlight::before {
     content: "";
     background-color: #1da1f2;
-    width: 100%;
+    width: 315px;
     height: 20%;
     position: absolute;
     bottom: 0;
@@ -84,7 +133,7 @@
     opacity: 0.3;
 }
 
-.highlight::after {
+/* .highlight::after {
     content: "";
     background-color: #ffffff;
     width: 100%;
@@ -92,7 +141,7 @@
     position: absolute;
     bottom: -1px;
     z-index: -1;
-}
+} */
 
 .intro-text .description {
     font-size: 1.8rem;
@@ -156,14 +205,16 @@
     }
 }
 
-.main-img {}
+.main-img {
+    max-width: 438px;
+}
 
 .growth {
     background-color: var(--theme-section-bg);
     padding: 2rem 2rem;
     font-size: 2rem;
     border-radius: 24px;
-    margin: 15rem auto;
+    margin: 15rem auto 5rem auto;
 }
 
 .stats {
@@ -186,7 +237,7 @@
 
 .stats div h1 {
     font-size: 5rem;
-    text-shadow: 2px 2px 10px rgb(196, 196, 196);
+    text-shadow: 2px 2px 5px rgb(196, 196, 196);
 }
 
 .stats div p {
@@ -278,6 +329,10 @@
 .qualities .description {
     font-size: 1.6rem;
     color: var(--theme-text-dull);
+}
+
+.working {
+    padding-top: 10rem;
 }
 
 .content-a {
@@ -396,3 +451,20 @@ footer {
 .bi-instagram {
     color: #c13584
 }
+
+/* main {
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+main::-webkit-scrollbar {
+    width: 5px;
+}
+
+main::-webkit-scrollbar-track {
+    background-color: darkgrey;
+}
+
+main::-webkit-scrollbar-thumb {
+    background-color: rgb(36, 36, 36);
+} */
