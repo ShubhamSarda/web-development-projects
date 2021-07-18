@@ -25,7 +25,7 @@ Repository Link - https://github.com/ShubhamSarda/web-development-projects/tree/
 Demo Link -   
 Code Pen -   
 
-Project 6: Agency Website (All Concepts)  
-Repository Link - https://github.com/ShubhamSarda/web-development-projects/tree/master/agency-website   
+Project 6: Ed-Tech Landing Page (All Concepts)  
+Repository Link - https://github.com/ShubhamSarda/web-development-projects/tree/master/edtech-landing-page    
 Demo Link -   
 Code Pen -   
