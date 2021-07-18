@@ -59,15 +59,17 @@ ul.navbar-mobile {
     box-shadow: 5px 3px 2px rgb(140 152 164 / 15%);
 }
 
-.navbar-mobile a {
+.navbar-mobile .btn-sm {
     display: block;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    text-align: center;
 }
 
 .m-menu ul li {
     padding: 1rem 0rem 1rem 1rem;
     font-weight: 500;
     color: var(--theme-text-dull);
+    padding: 1rem 2rem;
 }
 
 .m-menu ul li:hover {
@@ -75,7 +77,6 @@ ul.navbar-mobile {
     color: var(--theme-color);
     background-color: #b8dfff;
     border-radius: 5px;
-    padding-left: 1rem;
 }
 
 .intro-section {
@@ -341,15 +342,15 @@ ul.navbar-mobile {
 }
 
 .content-a .tagline {
-    font-size: 3rem;
-    font-weight: 600;
-    color: var(--theme-color);
-}
-
-.content-a .mainline {
     font-size: 4rem;
     font-weight: 600;
     color: var(--theme-text);
+}
+
+.content-a .mainline {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--theme-color);
     margin-bottom: 2rem;
 }
 
@@ -450,6 +451,10 @@ footer {
 
 .bi-instagram {
     color: #c13584
+}
+
+.bi-youtube {
+    color: #db0000
 }
 
 /* main {
