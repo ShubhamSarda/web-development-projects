@@ -1,0 +1,27 @@
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1280px;
+}
+
+.active {
+    color: var(--theme-color)!important;
+}
+
+.ml-2 {
+    margin-left: 2rem;
+}
+
+.btn {
+    color: #ffffff;
+    background-color: var(--theme-color);
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.btn:hover {
+    background-color: var(--theme-color-hover);
+    transition: all 0.2s ease-in;
+}

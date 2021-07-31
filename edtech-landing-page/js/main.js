@@ -1,11 +1,11 @@
-var x = document.getElementById("navbar-mobile");
+var x = document.getElementById("m-navbar");
 x.style.display = "none";
 
-function myFunction() {
-    var x = document.getElementById("navbar-mobile");
-    if (x.style.display === "none") {
-      x.style.display = "block";
+function show(){
+    var x = document.getElementById("m-navbar");
+    if (x.style.display === "none"){
+        x.style.display = "block";
     } else {
-      x.style.display = "none";
+        x.style.display = "none";
     }
-  }
+}

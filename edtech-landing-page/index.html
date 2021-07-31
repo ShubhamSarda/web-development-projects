@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" href="./media/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="icon" href="./media/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
 
@@ -15,38 +16,46 @@
 </head>
 
 <body>
-
     <header>
         <div class="navbar container">
             <div class="logo">
-                <img src="./media/logo.png" alt="">
+                <img src="./media/logo.png" alt="Logo HighSchool">
             </div>
-            <nav class="d-menu desktop">
+            <nav class="d-menu">
                 <ul>
-                    <a href="./index.html">
+                    <a href="">
                         <li class="active">Home</li>
                     </a>
-                    <a href="#package">
+                    <a href="">
                         <li>Packages</li>
                     </a>
-                    <li>Testimonials</li>
-                    <a href="" class="btn ml-2 animate__animated animate__tada">Contact Us</a>
+                    <a href="">
+                        <li>Testimonials</li>
+                    </a>
+                    <a href="" class="btn ml-2 animate__animated animate__tada">
+                        Contact Us
+                    </a>
                 </ul>
             </nav>
-            <nav class="m-menu mobile">
-                <div onclick="myFunction()">
+            <nav class="m-menu">
+                <div onclick="show()">
                     <button class="hamburger bi bi-list"></button>
                 </div>
-                <ul class="navbar-mobile" id="navbar-mobile">
-                    <a href="./index.html">
+                <ul class="m-navbar" id="m-navbar">
+                    <a href="">
                         <li class="active">Home</li>
                     </a>
-                    <a href="#package">
+                    <a href="">
                         <li>Packages</li>
                     </a>
-                    <li>Testimonials</li>
-                    <a href="" class="btn-sm">Contact Us</a>
+                    <a href="">
+                        <li>Testimonials</li>
+                    </a>
+                    <a href="" class="btn">
+                        Contact Us
+                    </a>
                 </ul>
+
             </nav>
         </div>
     </header>
@@ -60,9 +69,9 @@
                     <p class="main-line">Download<br><span class="highlight">Learning App</span></p>
                     <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum velit enim
                         voluptatibus quas tempore laborum debitis quae possimus molestias corrupti.</p>
-                    <a href="" class="btn animate__animated animate__tada">Download Now</a>
+                    <a href="" class="btn">Download Now</a>
                 </div>
-                <div class="intro-img">
+                <div class="intro-images">
                     <img class="float-bl" src="./media/bg-2.png" alt="">
                     <img class="float-tr" src="./media/bg-3.png" alt="">
                     <img class="main-img" src="./media/bg-1.png" alt="">
@@ -82,7 +91,7 @@
                 </div>
                 <div>
                     <h1>250</h1>
-                    <p>Feedback</p>
+                    <p>Feedbacks</p>
                 </div>
                 <div>
                     <h1>550</h1>
@@ -91,56 +100,58 @@
             </div>
             <div class="info">
                 <p class="tag-line">Gamify <span>Learning</span> With HighSchool App</p>
-                <p class="main-line">Consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                <p class="description">Consectetur sed do eiusmod tempor incididunt adipisicing eiusmod tempor
-                    incididunt elit.</p>
+                <p class="description">Consectetur adipisicing elit, sed do eiusmod tempor incididunt.<br>Consectetur
+                    sed do eiusmod tempor incididunt adipisicing eiusmod tempor incididunt elit.</p>
+
                 <div class="qualities">
                     <div>
-                        <p class="icon icon-1"><i class="bi bi-camera-video"></i></p>
+                        <p class="icon icon1"><i class="bi bi-camera-video"></i></p>
                         <p class="title">HQ Videos</p>
                         <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
                             ex.</p>
                     </div>
                     <div>
-                        <p class="icon icon-2"><i class="bi bi-globe"></i></p>
+                        <p class="icon icon2"><i class="bi bi-globe"></i></p>
                         <p class="title">Global Students</p>
                         <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
                             ex.</p>
                     </div>
                     <div>
-                        <p class="icon icon-3"><i class="bi bi-award"></i></p>
+                        <p class="icon icon3"><i class="bi bi-award"></i></p>
                         <p class="title">Gamified</p>
                         <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
                             ex.</p>
                     </div>
                     <div>
-                        <p class="icon icon-4"><i class="bi bi-card-checklist"></i></p>
+                        <p class="icon icon4"><i class="bi bi-card-checklist"></i></p>
                         <p class="title">Notes</p>
                         <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
                             ex.</p>
                     </div>
                 </div>
+
             </div>
         </section>
-        <section class="working container" id="package">
-            <div class="content-a">
-                <p class="tagline">Why High School?</p>
-                <p class="mainline">Structured Learning</p>
+
+        <section class="working container">
+            <div class="content">
+                <p class="tag-line">Why High School?</p>
+                <p class="main-line">Structured Learning</p>
                 <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, quia!</p>
             </div>
             <div class="demo">
-                <img class="float-bg-5" src="./media/shapes/bg-shape-2.png" alt="">
-                <div class="item1 text-right">
+                <img class="float-bg-2" src="./media/shapes/bg-shape-2.png" alt="">
+                <div class="item1 move-right">
                     <p class="title">Q/A Support</p>
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor.</p>
                 </div>
-                <div class="item2 text-right">
-                    <p class="title text-right">Practice Sessions</p>
+                <div class="item2 move-right">
+                    <p class="title">Practice Sessions</p>
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor.</p>
                 </div>
-                <div class="item3 text-right">
+                <div class="item3 move-right">
                     <p class="title">Gamified Learning</p>
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor.</p>
@@ -148,41 +159,37 @@
 
                 <img class="image" src="./media/bg-4.png" alt="">
 
-                <div class="item4">
+                <div class="item4 move-left">
                     <p class="title">Unlimited Access</p>
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor.</p>
                 </div>
-                <div class="item5">
+                <div class="item5 move-left">
                     <p class="title">Practical Examples</p>
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor.</p>
                 </div>
-                <div class="item6">
+                <div class="item6 move-left">
                     <p class="title">Bite-Sized Lessons</p>
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor.</p>
                 </div>
-
             </div>
-
         </section>
     </main>
 
     <footer>
-        <div class="footer-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#ffffff" fill-opacity="1"
-                    d="M0,256L120,234.7C240,213,480,171,720,165.3C960,160,1200,192,1320,208L1440,224L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
-                </path>
-            </svg>
-        </div>
-        <div class="footer-links container">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#ffffff" fill-opacity="1"
+                d="M0,256L120,234.7C240,213,480,171,720,165.3C960,160,1200,192,1320,208L1440,224L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
+            </path>
+        </svg>
+        <section class="links container">
             <div class="logo">
                 <img src="./media/logo.png" alt="">
                 <p>© 2022, All Rights Reserved.</p>
             </div>
-            <div class="quick-link">
+            <div class="qlinks">
                 <h2>Quick Links</h2>
                 <ul>
                     <li>Home</li>
@@ -190,7 +197,7 @@
                     <li>Contact</li>
                 </ul>
             </div>
-            <div class="legal-links">
+            <div class="lglinks">
                 <h2>Legal Stuff</h2>
                 <ul>
                     <li>Privacy Policy</li>
@@ -198,7 +205,7 @@
                     <li>Terms & Condition</li>
                 </ul>
             </div>
-            <div class="social-media">
+            <div class="social">
                 <h2>Social Media</h2>
                 <ul>
                     <li><i class="bi bi-twitter"></i>Twitter</li>
@@ -206,11 +213,9 @@
                     <li><i class="bi bi-youtube"></i>Youtube</li>
                 </ul>
             </div>
-        </div>
+        </section>
     </footer>
-
     <script src="./js/main.js"></script>
-
 </body>
 
 </html>

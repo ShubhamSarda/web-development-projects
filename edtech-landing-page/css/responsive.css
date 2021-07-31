@@ -7,15 +7,12 @@
         position: sticky;
         top: 0;
         background-color: #ffffff;
-        z-index: 105;
+        z-index: 100;
     }
-    .float-bg {
+    nav.d-menu {
         display: none;
     }
-    nav.desktop {
-        display: none;
-    }
-    nav.mobile {
+    nav.m-menu {
         display: block;
     }
     .intro-section {
@@ -25,7 +22,8 @@
     .intro-text {
         max-width: 100%;
     }
-    .intro-img {
+    .intro-images {
+        width: 100%;
         margin-top: 5rem;
     }
 }
@@ -41,30 +39,24 @@
         grid-template-areas: "item1" "item2" "item3" "image" "item4" "item5" "item6";
         gap: 1rem;
     }
-    .demo div p {
+    .demo p {
         text-align: center;
     }
-    .demo div p.description {
+    .demo .description {
         margin-bottom: 3rem;
     }
-    .image {
-        max-height: 625px;
-        max-width: 438px;
-        margin: auto;
-    }
-    .footer-links {
+    footer .links {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
         padding-bottom: 2rem;
     }
-    .footer-links div {
-        margin: 2rem 0;
+    footer .links div {
+        margin-bottom: 3rem;
     }
 }
 
 @media (max-width:480px) {
     .main-img {
-        width: 90%;
+        width: 100%;
     }
 }

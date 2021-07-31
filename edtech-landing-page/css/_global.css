@@ -3,29 +3,36 @@
 :root {
     --theme-text: #2d3748;
     --theme-text-dull: #5c6069;
-    --theme-color: rgb(0, 129, 235);
-    --theme-color-hover: rgb(0, 98, 179);
+    --theme-text-long: #718096;
+    --theme-color: #0081EB;
+    --theme-color-hover: #0062B3;
     --theme-section-bg: #F6F7FC;
 }
 
 * {
     margin: 0;
     padding: 0;
-    text-decoration: none;
-    list-style: none;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     color: var(--theme-text);
+    text-decoration: none;
+    list-style: none;
 }
 
 html {
     font-size: 10px;
 }
 
-a {
-    text-decoration: none;
-}
+/* html::-webkit-scrollbar {
+    width: 20px;
+} */
 
-header {
-    padding: 2rem 0;
-}
+/* html::-webkit-scrollbar-thumb {
+    background-color: #b4ddff;
+    border-radius: 10px;
+    border: 1px solid #F6F7FC;
+} */
+
+/* html::-webkit-scrollbar-track {
+    background-color: #2d3748;
+} */
