@@ -1,4 +1,4 @@
-Complete Course On HTML5, CSS3, SASS and Bootstrap 5 (Coming Soon!)
+The repository contains all project files and demo links for Web Development foundation course. (HTML5, CSS3, SASS and Bootstrap 5)
 
 - <b>Project 1:</b> Profile Card  
   [Repository Link](https://github.com/ShubhamSarda/web-development-projects/tree/master/profile-card) | [Demo Link](https://profilecard-ul.netlify.app/) | [Code Pen](https://codepen.io/shubham_ul/pen/zYZQMxz)
