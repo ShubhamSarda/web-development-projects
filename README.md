@@ -1,4 +1,4 @@
-The repository contains all project files and demo links for Web Development foundation course. (HTML5, CSS3, SASS, Tailwind and Bootstrap)
+A collection of web development projects built with HTML5, CSS3, Sass, Tailwind CSS, Bootstrap, and GitHub Copilot.
 
 - <b>Project 1:</b> Profile Card / HTML & CSS Basics
   [Repository Link](https://github.com/ShubhamSarda/web-development-projects/tree/master/profile-card) / [Demo Link](https://profilecard-ul.netlify.app/)
